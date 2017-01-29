@@ -81,7 +81,7 @@ namespace mvccoreappgithub
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Person}/{action=Index}/{id?}");
             });
         }
     }
